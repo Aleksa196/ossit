@@ -1,0 +1,48 @@
+#wrapper{ 
+    width: 80%; 
+    margin: 0 auto;
+    background:#6f3182; 
+  }
+  
+  #header{
+  position:relative; 
+    height: 100%; 
+    background-color: #282121;
+    background-image: url("фон шапки.jpg");
+      background-size: cover; 
+     margin-bottom: 5px;
+     margin-left: 5px;
+     margin-right: 5px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  }
+  #content{ 
+    margin-bottom: 5px; 
+    width: 80%%; 
+    padding: 10px; 
+    background: #ebbde8;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+  }
+  h1{
+    margin:0 0 10px 10%; 
+    color:#552659; 
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+  }
+  .six {
+    color: #000000; 
+    background: #ff0000; 
+    padding: 1px; 
+    border-radius: 1px; 
+    box-shadow: 0px 1px 3px; 
+    
+    transition: all 500ms ease-out;
+    }
+  
+    .six:hover {
+    box-shadow: 0px 0px 0px 2px #f90914,
+    0px 0px 0px 7px #a7f9c9,
+    0px 0px 0px 9px #f90914,
+    0px 0px 5px 10px #ff4d00;
+    }
